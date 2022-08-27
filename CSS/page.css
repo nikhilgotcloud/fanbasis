@@ -1,0 +1,179 @@
+
+.heading{
+	font-family: verdana;
+	font-weight: 900;
+}
+.banner{
+	background-image: url("bg_1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	 height: 600px;
+	 width: 100%;
+	 padding: 25vh 0;
+
+}
+
+.subheading{
+	font-size: 15px;
+    color: #fbd341;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.mb-4{
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 1.5;
+}
+
+.btn.btn-primary{
+	background: #4e9525 !important;
+    border: 1px solid #4e9525;
+    color: #fff !important;
+}
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 100%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+  color: #4e9525;
+}
+
+.owl-nav .owl-next {
+  right: -10px;
+  color: #4e9525;
+}
+
+.footy{
+	background-color: #252525;
+}
+.icony{
+	/*background-color: grey;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-right: 10px;
+
+	padding: 20px;*/
+
+
+  text-decoration: none;
+  margin: 10px 25px 10px 0px;
+  border-radius: 50%;
+  color: #fff;
+	
+}
+
+.fa-twitter{
+	
+	color: #fff;
+}
+
+.icony:hover{
+	
+	color: #4e9525;
+	text-decoration: none;
+}
+
+.okok{
+	display: inline-flex;
+}
+
+.hovery:hover{
+	color: #4e9525;
+}
+.okok1{
+	display: inline-flex;
+}
+.okok2{
+	display: inline-flex;
+	margin-top: 5px;
+}
+.bannery{
+	background-image: url("../images/bg_2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	 height: 540px;
+	 padding: 30vh 0;
+
+}
+
+.hovery:hover 
+{
+	color: #fbd341;
+}
+
+.bannery2{
+	background-image: url("../images/bg_2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	 height: 540px;
+	 padding: 30vh 0;
+
+}
+
+.link1{
+	font-size: 18px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    background: #fff;
+    color: #000000;
+    border-radius: 4px;
+    position: relative;
+    display: block;
+    box-shadow: 0px 10px 30px -4px rgb(0 0 0 / 15%);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link1:hover{
+	color: #fff;
+	background-color: #4e9525;
+	text-decoration: none;
+}
+
+.sizy{
+	width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-p {
+    margin-top: 50px;
+  }
+.sizy{
+width: 340px;
+margin-bottom: 50px;
+}
+
+}
